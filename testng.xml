@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/ramzo/projects/herokuappTest">
+        <classes>
+            <class name="com.herokuapp.tests.ChallengingDOM_Test">
+                <methods>
+                    <include name="CheckTableRow"/>
+                </methods>
+            </class>
+            <class name="com.herokuapp.tests.FileUpload_Test">
+                <methods>
+                    <include name="FileUpload"/>
+                </methods>
+            </class>
+            <class name="com.herokuapp.tests.ShiftingContent_Test">
+                <methods>
+                    <include name="ContentShift"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
